@@ -1,0 +1,68 @@
+@media screen and (max-width: 480px) {
+    #teachers .col-md-3 {
+    width: 100%;
+    margin: 0;
+    }
+    #news .frame {
+    border: 1px solid #446599;
+    height: 41px;
+    }
+    ul.nav-tabs li {
+    width: inherit;
+    font-size: 12px;
+    }
+    p {
+    line-height: 1.5em;
+    font-size: 12px;
+    }
+    .navbar-brand span {
+    left: 10%;
+    }
+    .navbar-brand img {
+    width: 15%;
+    }
+    #myCarousel .carousel-caption {
+    bottom: 8%;
+    }
+    #myCarousel .carousel-caption h3 {
+    font-size: 200%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .teachers .text {
+    padding: 5%;
+    }
+    #teachers .col-md-3 {
+    width: 50%;
+    margin: 0;
+    }
+    #news .frame {
+    border: 1px solid #446599;
+    height: 41px;
+    }
+    ul.nav-tabs li {
+    width: inherit;
+    font-size: 16px;
+    }
+    p {
+    line-height: 1.5em;
+    font-size: 16px;
+    }
+    .navbar-brand span {
+    left: 50%;
+    }
+    .navbar-brand img {
+    width: 15%;
+    }
+    #myCarousel .carousel-caption {
+    bottom: 8%;
+    }
+    #myCarousel .carousel-caption h3 {
+    font-size: 200%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {}
+
+@media (min-width: 1400px) {}

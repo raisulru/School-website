@@ -1,0 +1,272 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+/* common css for all page and section */
+#news,
+#history,
+#teachers,
+#gallary
+{
+	padding: 4% 0;
+}
+p{
+	text-align: justify;
+	line-height: 2em;
+	font-size: 16px;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+.carousel-indicators li{
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
+.carousel-indicators li.active{
+	background-color: #446599;
+	border: none;
+}
+ul.nav-tabs{
+	border: none;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+ul.nav-tabs li{
+	border: none;
+    width: 24.7%;
+    background-color: #EAEAEA;
+    margin-right: .3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.nav-tabs li a{
+
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover{
+	border: none;
+	background-color: #446599;
+	color: #fff;
+	border-radius: 0;
+}
+.nav-tabs>li.active>a::after{
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #446599;
+    content: "";
+    left: 50%;
+    position: absolute;
+    bottom: -10px;
+}
+.col-md-6:first-child{
+	
+}
+.col-md-6:last-child{
+	
+}
+/* css for navigation */
+.navbar-brand img{
+	width: 5%;
+	position: absolute;
+	top: 10%;
+}
+.navbar-brand span{
+	color: #fff;
+    position: relative;
+    left: 30%;
+}
+#navigation .navbar{
+	padding: 1%;
+	background-color: #446599;
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #ccc;
+	font-size: 125%;
+}
+.navbar ul li a:hover{
+	text-decoration: underline;
+	background: none;
+}
+#academic,
+#admission,
+#contact{
+	padding: 2% 0;
+}
+/* css for header */
+#myCarousel .item img{
+	width: 100%;
+}
+#myCarousel .carousel-caption{
+	bottom: 40%;
+}
+#myCarousel .carousel-caption h3{
+	font-size: 400%;
+    text-transform: uppercase;
+}
+/* css for news section */
+#news .frame{
+	border: 10px solid #446599;
+	height: 220px;
+	overflow: visible;
+}
+#news .frame img{
+	width: 100%;
+}
+#news h2{
+	text-transform: uppercase;
+}
+#news ul.nav-tabs{
+	border: none;
+	padding-bottom: 3%;
+}
+/* css for founding history */
+#history .school-image img{
+	width: 100%;
+}
+#history h2{
+	margin-top: 0;
+}
+/* css for our teachers */
+#teachers .carousel-indicators{
+	bottom: -35px;
+}
+#teachers .col-md-3{
+	padding: 0;
+    margin: 10px;
+    width: 23%;
+}
+#teachers .col-md-3:hover div.text{
+	display: block;
+}
+#teachers .teachers img{
+	width: 100%;
+}
+.teachers .text{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+    display: none;
+}
+
+/* css for gallary */
+#gallary .gallary .col-md-4{
+	padding: 0;
+}
+.gallary .col-md-4 img{
+	width: 100%;
+}
+.gallary .gallary-text{
+	position: absolute;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+    display: none;
+}
+.gallary-text p{
+	font-size: 20px;
+}
+.gallary .col-md-4:hover .gallary-text{
+	display: block;
+}
+/* css for google map */
+#location .container-fluid{
+	padding: 0;
+}
+/* css for footer */
+#footer{
+	background-color: #446599;
+	color: #fff;
+	padding-top: 1%;
+}
+#footer ul{
+	padding-left: 0;
+}
+#footer li{
+	list-style: none;
+	padding: 1% 0;
+}
+#footer a{
+	color: #fff;
+}
+#footer .social{
+	padding: 3%;
+	overflow: hidden;
+}
+#footer .social nav a{
+	color: #ccc;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	margin: 1%;
+	padding: 5px 9px;
+	font-size: 16px;
+}
+#footer .social nav a:hover{
+	color: #fff;
+	border: 2px solid #fff;
+}
+#footer .social nav a:first-child{
+	padding: 5px 11px;
+}
+#footer footer{
+	background-color: #194F8C;
+	padding: 1%;
+}
+/* css for academic page */
+/* css for academic dress code for boys */
+#dress-code img{
+	width: 100%;
+}
+#class-routine img{
+	width: 100%;
+}
+/* css for admission page */
+
+/* css for contact page */
+#contact form input,
+#contact form textarea{
+	border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background-color: #fff;
+    margin-top: 5%;
+    border-radius: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(0,0,0);
+}
+#contact form input[type='submit']{
+	border: 1px solid #ccc;
+}
+#contact form input[type='submit']:hover{
+	background-color: #446599;
+	transition: .5s;
+}
+#contact .important-number{
+	padding-left: 8%;
+}
+#contact .important-number ul{
+	padding-left: 0;
+}
+#contact .important-number li{
+	background-color: #446599;
+    list-style: none;
+    margin-top: 6%;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+    font-size: 16px;
+}
