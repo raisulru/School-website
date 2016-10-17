@@ -30,7 +30,7 @@ h2{
 }
 ul.nav-tabs{
 	border: none;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 3%;
 }
 ul.nav-tabs li{
@@ -51,6 +51,7 @@ ul.nav-tabs li a{
 	background-color: #446599;
 	color: #fff;
 	border-radius: 0;
+	outline: none;
 }
 .nav-tabs>li.active>a::after{
 	border-left: 10px solid transparent;
@@ -125,6 +126,9 @@ ul.nav-tabs li a{
 	border: none;
 	padding-bottom: 3%;
 }
+#news ul.nav-tabs li{
+	width: 33%;
+}
 /* css for founding history */
 #history .school-image img{
 	width: 100%;
@@ -137,9 +141,7 @@ ul.nav-tabs li a{
 	bottom: -35px;
 }
 #teachers .col-md-3{
-	padding: 0;
-    margin: 10px;
-    width: 23%;
+	margin-bottom: 30px;
 }
 #teachers .col-md-3:hover div.text{
 	display: block;
@@ -152,13 +154,16 @@ ul.nav-tabs li a{
     background-color: rgba(0,0,0,.3);
     color: #fff;
     top: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    padding: 25%;
+    padding: 20%;
     display: none;
 }
 
 /* css for gallary */
+.gallary, #location .container-fluid {
+	margin-top: 1%;
+}
 #gallary .gallary .col-md-4{
 	padding: 0;
 }
@@ -245,7 +250,7 @@ ul.nav-tabs li a{
     margin-top: 5%;
     border-radius: 0;
     width: 100%;
-    border-bottom: 1px solid rgb(0,0,0);
+    border-bottom: 1px solid #ccc;
 }
 #contact form input[type='submit']{
 	border: 1px solid #ccc;
